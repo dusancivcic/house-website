@@ -55,8 +55,9 @@ button {
   z-index: 2;
   transition: all 0.3s ease;
   overflow: hidden;
-  color: #121730;
-  border: 2px solid #121730;
+  color: #fdffff;
+  background-color: #4e5883;
+  border: 2px solid #4e5883;
 }
 .btn-1:after {
   position: absolute;
@@ -70,6 +71,7 @@ button {
 }
 .btn-1:hover {
   color: #fdffff;
+  border: 2px solid #121730;
 }
 .btn-1:hover:after {
   -webkit-transform: scale(2) rotate(180deg);
