@@ -20,7 +20,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 .hero-content {
   max-width: 600px;
@@ -162,6 +162,48 @@ button {
   width: 100%;
   left: 0;
   background: #fdffff;
+}
+.whyus-section {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  color: #4e5883;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+#icon {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.whyustitle {
+  color: #4e5883;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.whyus-container-one {
+  background-image: url("images/Why-Us.png");
+  height: 330px;
+  width: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.whyus-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.whyus-content p {
+  font-size: 15px;
+}
+.whyus-section-two {
+  display: grid;
+  grid-template-columns: repeat(2, 260px);
+  grid-template-rows: repeat(2, 150px);
+  column-gap: 50px;
+  row-gap: 30px;
 }
 .offers-section {
   max-width: 1000px;
