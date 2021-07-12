@@ -104,20 +104,22 @@ button {
 .logo {
   position: absolute;
   transform: scale(0.6);
+  top: 20%;
   left: 15%;
 }
 
-#nav-bar {
-  background-color: #262122;
+.nav-bar {
+  top: 0;
   position: fixed;
   z-index: 999;
   width: 100%;
+
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 #nav-bar-menu {
   max-width: 100%;
   display: flex;
-  height: 50px;
+
   justify-content: flex-end;
   background-color: #4e5883;
   border-bottom: solid 0.5px #fdffff;
@@ -131,7 +133,7 @@ button {
 }
 #nav-bar-list a {
   display: block;
-  padding: 15px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
   font-weight: 500;
   color: #fdffff;
   text-transform: uppercase;
@@ -151,6 +153,7 @@ button {
   display: block;
   height: 1px;
   left: 50%;
+  top: 65%;
   position: absolute;
   transition: width 0.3s ease 0s, left 0.3s ease 0s, background 0.4s ease 0s;
   width: 0;
